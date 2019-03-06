@@ -5,9 +5,7 @@ class DifferenceOfSquaresCalculator {
       int squareOfSum = 0;
       for (int i = 1; i < (input + 1); i++){
         sum += i;
-        System.out.println("sum is: " + sum);
       }
-
       return squareOfSum = sum * sum;
     }
 
@@ -15,7 +13,6 @@ class DifferenceOfSquaresCalculator {
       int sumOfSquares = 0;
       for (int i = 1; i < (input + 1); i++){
         sumOfSquares += (i * i);
-        System.out.println("sumOfSquares is: " + sumOfSquares);
       }
       return sumOfSquares;
     }
@@ -23,5 +20,4 @@ class DifferenceOfSquaresCalculator {
     int computeDifferenceOfSquares(int input) {
       return computeSquareOfSumTo(input) - computeSumOfSquaresTo(input);
     }
-
 }
