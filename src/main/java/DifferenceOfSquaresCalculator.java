@@ -1,16 +1,20 @@
 class DifferenceOfSquaresCalculator {
 
     int computeSquareOfSumTo(int input) {
-      int sumOfSquare = 0;
+      int squareOfSum = 0;
       for (int i = 1; i < (input + 1); i++){
-        sumOfSquare += (i * i);
+        squareOfSum += i;
+        System.out.println("squareOfSum is: " + squareOfSum);
       }
-      return sumOfSquare;
+      return squareOfSum * squareOfSum;
     }
 
     int computeSumOfSquaresTo(int input) {
-
-      return 1;
+      int sumOfSquares = 0;
+      for (int i = 1; i < (input + 1); i++){
+        sumOfSquares += (i * i);
+      }
+      return sumOfSquares;
     }
 
     int computeDifferenceOfSquares(int input) {

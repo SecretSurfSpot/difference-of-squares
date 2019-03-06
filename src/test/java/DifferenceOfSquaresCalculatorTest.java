@@ -15,12 +15,12 @@ public class DifferenceOfSquaresCalculatorTest {
 
     @Test
     public void testSquareOfSumUpToOne() {
-        int expected = 385;
-        int actual = calculator.computeSquareOfSumTo(10);
+        int expected = 1;
+        int actual = calculator.computeSquareOfSumTo(1);
         assertEquals(expected, actual);
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testSquareOfSumUpToFive() {
         int expected = 225;
@@ -28,7 +28,7 @@ public class DifferenceOfSquaresCalculatorTest {
         assertEquals(expected, actual);
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testSquareOfSumUpToHundred() {
         int expected = 25502500;
@@ -36,7 +36,7 @@ public class DifferenceOfSquaresCalculatorTest {
         assertEquals(expected, actual);
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testSumOfSquaresUpToOne() {
         int expected = 1;
@@ -44,7 +44,7 @@ public class DifferenceOfSquaresCalculatorTest {
         assertEquals(expected, actual);
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testSumOfSquaresUpToFive() {
         int expected = 55;
@@ -52,7 +52,7 @@ public class DifferenceOfSquaresCalculatorTest {
         assertEquals(expected, actual);
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testSumOfSquaresUpToHundred() {
         int expected = 338350;
