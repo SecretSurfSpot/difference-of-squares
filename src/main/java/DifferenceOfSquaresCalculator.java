@@ -2,11 +2,10 @@ class DifferenceOfSquaresCalculator {
 
     int computeSquareOfSumTo(int input) {
       int sum = 0;
-      int squareOfSum = 0;
       for (int i = 1; i < (input + 1); i++){
         sum += i;
       }
-      return squareOfSum = sum * sum;
+      return (int) Math.pow(sum, 2);
     }
 
     int computeSumOfSquaresTo(int input) {
