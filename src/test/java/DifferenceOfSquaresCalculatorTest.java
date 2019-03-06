@@ -15,8 +15,8 @@ public class DifferenceOfSquaresCalculatorTest {
 
     @Test
     public void testSquareOfSumUpToOne() {
-        int expected = 1;
-        int actual = calculator.computeSquareOfSumTo(1);
+        int expected = 385;
+        int actual = calculator.computeSquareOfSumTo(10);
         assertEquals(expected, actual);
     }
 
